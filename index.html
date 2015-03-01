@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Notes</title>
+    <link href="{%=o.webpack.assetsByChunkName.app[1]%}" rel="stylesheet" type="text/css">
+    <script src="knockout-3.3.0.js"></script>
+    <script src="moment.js"></script>
+</head>
+<body>
+    <div class="notes-container">
+        <!-- ko component: {
+            name: "notes",
+            params: { notesParameters:notesParameters }
+        } -->
+        <!-- /ko -->
+    </div>
+    <script src="{%=o.htmlWebpackPlugin.assets.app%}"></script>
+</body>
+</html>
